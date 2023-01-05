@@ -1,4 +1,6 @@
-﻿/*
+﻿using Singleton.src;
+
+/*
     客户端代码（懒汉模式）
 */
 SingletonLazy sl1 = SingletonLazy.GetInstance();

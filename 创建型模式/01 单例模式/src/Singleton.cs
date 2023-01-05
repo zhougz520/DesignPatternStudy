@@ -1,3 +1,5 @@
+namespace Singleton.src;
+
 /*
     懒汉模式：
     sealed阻止发生派生，而派生可能会增加实例
