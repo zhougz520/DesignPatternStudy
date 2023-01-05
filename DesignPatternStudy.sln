@@ -1,11 +1,11 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "创建型模式", "创建型模式", "{8ABD0198-DA7E-4691-8B24-395C2CAF4E99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单例模式", "创建型模式\01 单例模式\单例模式.csproj", "{4CA3611F-54E8-4461-AC9E-47AC99D44942}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "创建型模式\01 单例模式\Singleton.csproj", "{4CA3611F-54E8-4461-AC9E-47AC99D44942}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "简单工厂模式", "创建型模式\02 简单工厂模式\简单工厂模式.csproj", "{225BC39C-E9A5-4A81-8863-F98CE5224528}"
 EndProject
