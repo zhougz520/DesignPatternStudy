@@ -1,5 +1,4 @@
-﻿
-using FactoryMethod.Factorys;
+﻿using FactoryMethod.Factorys;
 using FactoryMethod.Operations;
 
 class Program

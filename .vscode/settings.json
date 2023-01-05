@@ -1,5 +1,4 @@
 {
     "omnisharp.enableImportCompletion": true,
-    "omnisharp.enableRoslynAnalyzers": true,
     "editor.formatOnSave": true
 }
