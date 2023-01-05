@@ -1,15 +1,15 @@
-namespace SimpleFactoryPattern.src;
+namespace FactoryMethod.Operations;
 
 /*
-    乘法类：
+    加法类：
     继承运算类
 */
-public class OperationMul : Operation
+public class OperationAdd : Operation
 {
     public override double GetResult()
     {
         double result = 0;
-        result = NumberA * NumberB;
+        result = NumberA + NumberB;
         return result;
     }
 }

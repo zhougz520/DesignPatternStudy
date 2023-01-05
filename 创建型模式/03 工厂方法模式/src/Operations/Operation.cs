@@ -1,4 +1,4 @@
-namespace SimpleFactoryPattern.src;
+namespace FactoryMethod.Operations;
 
 /*
     运算类：

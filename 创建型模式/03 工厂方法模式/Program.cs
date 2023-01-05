@@ -1,14 +1,13 @@
-﻿using SimpleFactoryPattern.Factorys;
-using SimpleFactoryPattern.Operations;
-
-namespace SimpleFactoryPattern;
+﻿
+using FactoryMethod.Factorys;
+using FactoryMethod.Operations;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Operation oper;
-        oper = OperationFactory.createOperate("+");
+        IFactory operFactory = new AddFactory();
+        Operation oper = operFactory.CreateOperation();
         oper.NumberA = 1;
         oper.NumberB = 2;
         double result = oper.GetResult();

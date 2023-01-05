@@ -1,4 +1,6 @@
-namespace SimpleFactoryPattern.src;
+using SimpleFactoryPattern.Operations;
+
+namespace SimpleFactoryPattern.Factorys;
 
 /*
     运算工厂类

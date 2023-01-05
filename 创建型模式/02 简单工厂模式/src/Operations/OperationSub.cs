@@ -1,4 +1,4 @@
-namespace SimpleFactoryPattern.src;
+namespace SimpleFactoryPattern.Operations;
 
 /*
     减法类：
