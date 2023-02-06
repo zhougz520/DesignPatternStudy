@@ -3,6 +3,9 @@ using AbstractFactory.Entitys;
 
 namespace AbstractFactory.Factorys;
 
+/// <summary>
+/// Sqlserver工厂类
+/// </summary>
 public class SqlserverFactory : IFactory
 {
     public IDepartment CreateDepartment()

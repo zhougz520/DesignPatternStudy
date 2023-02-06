@@ -1,5 +1,8 @@
 namespace AbstractFactory.Department;
 
+/// <summary>
+/// Department实体类
+/// </summary>
 public class Department
 {
     private int _id;

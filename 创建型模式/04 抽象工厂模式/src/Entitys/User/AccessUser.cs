@@ -2,6 +2,9 @@ using AbstractFactory.Entitys;
 
 namespace AbstractFactory.Entitys;
 
+/// <summary>
+/// Access实现操作接口
+/// </summary>
 public class AccessUser : IUser
 {
     public User? GetUser(int id)

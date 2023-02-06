@@ -1,5 +1,8 @@
 namespace AbstractFactory.Department;
 
+/// <summary>
+/// Sqlserver实现操作接口
+/// </summary>
 public class SqlserverDepartment : IDepartment
 {
     public Department? GetDepartment(int id)

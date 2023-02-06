@@ -1,5 +1,8 @@
 namespace AbstractFactory.Entitys;
 
+/// <summary>
+/// Sqlserver实现操作接口
+/// </summary>
 public class SqlserverUser : IUser
 {
     public User? GetUser(int id)

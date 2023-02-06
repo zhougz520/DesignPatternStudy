@@ -1,5 +1,8 @@
 namespace AbstractFactory.Entitys;
 
+/// <summary>
+/// User实体类
+/// </summary>
 public class User
 {
     private int _id;

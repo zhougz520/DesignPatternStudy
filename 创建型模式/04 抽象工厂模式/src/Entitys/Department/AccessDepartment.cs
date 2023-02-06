@@ -1,5 +1,8 @@
 namespace AbstractFactory.Department;
 
+/// <summary>
+/// Access实现操作接口
+/// </summary>
 public class AccessDepartment : IDepartment
 {
     public Department? GetDepartment(int id)

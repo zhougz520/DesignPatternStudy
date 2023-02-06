@@ -3,6 +3,9 @@ using AbstractFactory.Entitys;
 
 namespace AbstractFactory.Factorys;
 
+/// <summary>
+/// Access工厂类
+/// </summary>
 public class AccessFactory : IFactory
 {
     public IDepartment CreateDepartment()
