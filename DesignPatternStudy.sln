@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "结构型模式", "结构�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "结构型模式\01 适配器模式\AdapterPattern.csproj", "{1A9950B6-3B02-49C4-9727-FA4072ACD73B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "结构型模式\02 装饰模式\DecoratorPattern.csproj", "{B2FD1C68-3EE7-4799-9EB5-1875944B3CB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{1A9950B6-3B02-49C4-9727-FA4072ACD73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A9950B6-3B02-49C4-9727-FA4072ACD73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A9950B6-3B02-49C4-9727-FA4072ACD73B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2FD1C68-3EE7-4799-9EB5-1875944B3CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2FD1C68-3EE7-4799-9EB5-1875944B3CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2FD1C68-3EE7-4799-9EB5-1875944B3CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2FD1C68-3EE7-4799-9EB5-1875944B3CB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4CA3611F-54E8-4461-AC9E-47AC99D44942} = {8ABD0198-DA7E-4691-8B24-395C2CAF4E99}
@@ -67,5 +73,6 @@ Global
 		{9236D309-202F-4026-BAB5-4335184ABDB0} = {8ABD0198-DA7E-4691-8B24-395C2CAF4E99}
 		{35616404-95CF-4087-95F5-C0DD22948BEC} = {8ABD0198-DA7E-4691-8B24-395C2CAF4E99}
 		{1A9950B6-3B02-49C4-9727-FA4072ACD73B} = {40702D07-7433-4788-BE6D-F342129FDE44}
+		{B2FD1C68-3EE7-4799-9EB5-1875944B3CB1} = {40702D07-7433-4788-BE6D-F342129FDE44}
 	EndGlobalSection
 EndGlobal
