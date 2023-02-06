@@ -1,9 +1,9 @@
-namespace AdapterPattern;
+namespace AdapterPattern.Player;
 
 /// <summary>
 /// 中锋
 /// </summary>
-public class Center : Player
+public class Center : PlayerBase
 {
     public Center(string name) : base(name) { }
 

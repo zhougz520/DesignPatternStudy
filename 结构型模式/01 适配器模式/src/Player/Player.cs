@@ -1,13 +1,13 @@
-namespace AdapterPattern;
+namespace AdapterPattern.Player;
 
 /// <summary>
 /// 球员抽象类
 /// </summary>
-public abstract class Player
+public abstract class PlayerBase
 {
     protected string name;
 
-    public Player(string name)
+    public PlayerBase(string name)
     {
         this.name = name;
     }

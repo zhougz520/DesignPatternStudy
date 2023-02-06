@@ -1,4 +1,4 @@
-namespace AdapterPattern;
+namespace AdapterPattern.Player;
 
 /// <summary>
 /// 外籍中锋

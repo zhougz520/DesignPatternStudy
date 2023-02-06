@@ -1,9 +1,11 @@
-namespace AdapterPattern;
+using AdapterPattern.Player;
+
+namespace AdapterPattern.Adapter;
 
 /// <summary>
 /// 翻译者
 /// </summary>
-public class Translator : Player
+public class Translator : PlayerBase
 {
     // 实例化“外籍中锋”对象，表明翻译者与外籍球员有关联
     private ForeignCenter wjzf = new ForeignCenter();

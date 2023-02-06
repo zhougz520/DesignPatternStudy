@@ -1,9 +1,9 @@
-namespace AdapterPattern;
+namespace AdapterPattern.Player;
 
 /// <summary>
 /// 后卫
 /// </summary>
-public class Guards : Player
+public class Guards : PlayerBase
 {
     public Guards(string name) : base(name) { }
 

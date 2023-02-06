@@ -1,9 +1,9 @@
-namespace AdapterPattern;
+namespace AdapterPattern.Player;
 
 /// <summary>
 /// 前锋
 /// </summary>
-public class Forwards : Player
+public class Forwards : PlayerBase
 {
     public Forwards(string name) : base(name) { }
 
