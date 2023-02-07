@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "结构型模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "结构型模式\06 代理模式\Proxy\Proxy.csproj", "{6E88D6A0-A2BB-4F60-8FA0-CB139E0EAD87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "结构型模式\07 外观模式\Facade\Facade.csproj", "{7CFE71E6-484E-4311-9DD6-A5367BBB1BED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{6E88D6A0-A2BB-4F60-8FA0-CB139E0EAD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E88D6A0-A2BB-4F60-8FA0-CB139E0EAD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E88D6A0-A2BB-4F60-8FA0-CB139E0EAD87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFE71E6-484E-4311-9DD6-A5367BBB1BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFE71E6-484E-4311-9DD6-A5367BBB1BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFE71E6-484E-4311-9DD6-A5367BBB1BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFE71E6-484E-4311-9DD6-A5367BBB1BED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{337F778F-2730-4094-BDD8-3B11EDD6ECD3} = {40702D07-7433-4788-BE6D-F342129FDE44}
 		{61B71FCD-A7F5-4A85-B3A2-5764111A8324} = {40702D07-7433-4788-BE6D-F342129FDE44}
 		{6E88D6A0-A2BB-4F60-8FA0-CB139E0EAD87} = {40702D07-7433-4788-BE6D-F342129FDE44}
+		{7CFE71E6-484E-4311-9DD6-A5367BBB1BED} = {40702D07-7433-4788-BE6D-F342129FDE44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0D32EBA-14AD-406F-814A-307686E6F7F3}
