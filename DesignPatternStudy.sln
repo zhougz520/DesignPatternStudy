@@ -5,31 +5,30 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "创建型模式", "创建型模式", "{8ABD0198-DA7E-4691-8B24-395C2CAF4E99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "创建型模式\01 单例模式\Singleton.csproj", "{4CA3611F-54E8-4461-AC9E-47AC99D44942}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "创建型模式\01 单例模式\Singleton.csproj", "{4CA3611F-54E8-4461-AC9E-47AC99D44942}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactoryPattern", "创建型模式\02 简单工厂模式\SimpleFactoryPattern.csproj", "{225BC39C-E9A5-4A81-8863-F98CE5224528}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFactoryPattern", "创建型模式\02 简单工厂模式\SimpleFactoryPattern.csproj", "{225BC39C-E9A5-4A81-8863-F98CE5224528}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "创建型模式\03 工厂方法模式\FactoryMethod.csproj", "{0FCFB09F-C909-4133-999F-BD23CCEED107}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "创建型模式\03 工厂方法模式\FactoryMethod.csproj", "{0FCFB09F-C909-4133-999F-BD23CCEED107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "创建型模式\04 抽象工厂模式\AbstractFactory.csproj", "{BA9D755E-33CA-4088-A57E-FA894FC29F22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "创建型模式\04 抽象工厂模式\AbstractFactory.csproj", "{BA9D755E-33CA-4088-A57E-FA894FC29F22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "创建型模式\05 建造者模式\BuilderPattern.csproj", "{9236D309-202F-4026-BAB5-4335184ABDB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "创建型模式\05 建造者模式\BuilderPattern.csproj", "{9236D309-202F-4026-BAB5-4335184ABDB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern", "创建型模式\06 原型模式\PrototypePattern.csproj", "{35616404-95CF-4087-95F5-C0DD22948BEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern", "创建型模式\06 原型模式\PrototypePattern.csproj", "{35616404-95CF-4087-95F5-C0DD22948BEC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "结构型模式", "结构型模式", "{40702D07-7433-4788-BE6D-F342129FDE44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "结构型模式\01 适配器模式\AdapterPattern.csproj", "{1A9950B6-3B02-49C4-9727-FA4072ACD73B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "结构型模式\01 适配器模式\AdapterPattern.csproj", "{1A9950B6-3B02-49C4-9727-FA4072ACD73B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "结构型模式\02 装饰模式\DecoratorPattern.csproj", "{B2FD1C68-3EE7-4799-9EB5-1875944B3CB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "结构型模式\02 装饰模式\DecoratorPattern.csproj", "{B2FD1C68-3EE7-4799-9EB5-1875944B3CB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "结构型模式\03 桥接模式\BridgePattern\BridgePattern.csproj", "{3CFB26FA-0A9A-471D-9F45-77113125AD5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4CA3611F-54E8-4461-AC9E-47AC99D44942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -64,6 +63,13 @@ Global
 		{B2FD1C68-3EE7-4799-9EB5-1875944B3CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2FD1C68-3EE7-4799-9EB5-1875944B3CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2FD1C68-3EE7-4799-9EB5-1875944B3CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CFB26FA-0A9A-471D-9F45-77113125AD5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFB26FA-0A9A-471D-9F45-77113125AD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFB26FA-0A9A-471D-9F45-77113125AD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFB26FA-0A9A-471D-9F45-77113125AD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4CA3611F-54E8-4461-AC9E-47AC99D44942} = {8ABD0198-DA7E-4691-8B24-395C2CAF4E99}
@@ -74,5 +80,9 @@ Global
 		{35616404-95CF-4087-95F5-C0DD22948BEC} = {8ABD0198-DA7E-4691-8B24-395C2CAF4E99}
 		{1A9950B6-3B02-49C4-9727-FA4072ACD73B} = {40702D07-7433-4788-BE6D-F342129FDE44}
 		{B2FD1C68-3EE7-4799-9EB5-1875944B3CB1} = {40702D07-7433-4788-BE6D-F342129FDE44}
+		{3CFB26FA-0A9A-471D-9F45-77113125AD5E} = {40702D07-7433-4788-BE6D-F342129FDE44}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0D32EBA-14AD-406F-814A-307686E6F7F3}
 	EndGlobalSection
 EndGlobal
