@@ -23,11 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "结构型
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "结构型模式\02 装饰模式\DecoratorPattern\DecoratorPattern.csproj", "{B2FD1C68-3EE7-4799-9EB5-1875944B3CB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "结构型模式\03 桥接模式\BridgePattern\BridgePattern.csproj", "{3CFB26FA-0A9A-471D-9F45-77113125AD5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "结构型模式\03 桥接模式\BridgePattern\BridgePattern.csproj", "{3CFB26FA-0A9A-471D-9F45-77113125AD5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "结构型模式\04 组合模式\CompositePattern\CompositePattern.csproj", "{337F778F-2730-4094-BDD8-3B11EDD6ECD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "结构型模式\04 组合模式\CompositePattern\CompositePattern.csproj", "{337F778F-2730-4094-BDD8-3B11EDD6ECD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "结构型模式\05 享元模式\Flyweight\Flyweight.csproj", "{61B71FCD-A7F5-4A85-B3A2-5764111A8324}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "结构型模式\05 享元模式\Flyweight\Flyweight.csproj", "{61B71FCD-A7F5-4A85-B3A2-5764111A8324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "结构型模式\06 代理模式\Proxy\Proxy.csproj", "{6E88D6A0-A2BB-4F60-8FA0-CB139E0EAD87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +81,10 @@ Global
 		{61B71FCD-A7F5-4A85-B3A2-5764111A8324}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61B71FCD-A7F5-4A85-B3A2-5764111A8324}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61B71FCD-A7F5-4A85-B3A2-5764111A8324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E88D6A0-A2BB-4F60-8FA0-CB139E0EAD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E88D6A0-A2BB-4F60-8FA0-CB139E0EAD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E88D6A0-A2BB-4F60-8FA0-CB139E0EAD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E88D6A0-A2BB-4F60-8FA0-CB139E0EAD87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +101,7 @@ Global
 		{3CFB26FA-0A9A-471D-9F45-77113125AD5E} = {40702D07-7433-4788-BE6D-F342129FDE44}
 		{337F778F-2730-4094-BDD8-3B11EDD6ECD3} = {40702D07-7433-4788-BE6D-F342129FDE44}
 		{61B71FCD-A7F5-4A85-B3A2-5764111A8324} = {40702D07-7433-4788-BE6D-F342129FDE44}
+		{6E88D6A0-A2BB-4F60-8FA0-CB139E0EAD87} = {40702D07-7433-4788-BE6D-F342129FDE44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0D32EBA-14AD-406F-814A-307686E6F7F3}
