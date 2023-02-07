@@ -13,6 +13,6 @@ public class AccessDepartment : IDepartment
 
     public void Insert(Department department)
     {
-        Console.WriteLine("在Access中给User表增加一条记录");
+        Console.WriteLine("在Access中给Department表增加一条记录");
     }
 }

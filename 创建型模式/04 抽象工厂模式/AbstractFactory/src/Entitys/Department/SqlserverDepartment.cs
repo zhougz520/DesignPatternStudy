@@ -13,6 +13,6 @@ public class SqlserverDepartment : IDepartment
 
     public void Insert(Department department)
     {
-        Console.WriteLine("在SQL Server中给User表增加一条记录");
+        Console.WriteLine("在SQL Server中给Department表增加一条记录");
     }
 }
