@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "行为型模式
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "行为型模式\02 模板方法模式\TemplateMethod\TemplateMethod.csproj", "{108C7DBE-20A7-4D92-BE7D-3BB6A90776A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "行为型模式\03 命令模式\Command\Command.csproj", "{71639E75-668D-4501-8E88-40027B7C8740}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{108C7DBE-20A7-4D92-BE7D-3BB6A90776A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{108C7DBE-20A7-4D92-BE7D-3BB6A90776A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{108C7DBE-20A7-4D92-BE7D-3BB6A90776A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71639E75-668D-4501-8E88-40027B7C8740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71639E75-668D-4501-8E88-40027B7C8740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71639E75-668D-4501-8E88-40027B7C8740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71639E75-668D-4501-8E88-40027B7C8740}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +131,7 @@ Global
 		{7CFE71E6-484E-4311-9DD6-A5367BBB1BED} = {40702D07-7433-4788-BE6D-F342129FDE44}
 		{E76AA72B-CB5A-4901-92C8-0DC522C7D905} = {32C114DF-FC87-4574-8BD3-A2364A01BE64}
 		{108C7DBE-20A7-4D92-BE7D-3BB6A90776A4} = {32C114DF-FC87-4574-8BD3-A2364A01BE64}
+		{71639E75-668D-4501-8E88-40027B7C8740} = {32C114DF-FC87-4574-8BD3-A2364A01BE64}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0D32EBA-14AD-406F-814A-307686E6F7F3}
