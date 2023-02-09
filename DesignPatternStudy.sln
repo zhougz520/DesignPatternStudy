@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "行为型模式
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "行为型模式\08 访问者模式\Visitor\Visitor.csproj", "{C68C42B8-9143-40D9-8925-C785AEAAE1C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "行为型模式\09 策略模式\Strategy\Strategy.csproj", "{B1ACBE89-4364-43C9-BF9E-CAAE6BFF8078}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{C68C42B8-9143-40D9-8925-C785AEAAE1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C68C42B8-9143-40D9-8925-C785AEAAE1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C68C42B8-9143-40D9-8925-C785AEAAE1C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1ACBE89-4364-43C9-BF9E-CAAE6BFF8078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1ACBE89-4364-43C9-BF9E-CAAE6BFF8078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1ACBE89-4364-43C9-BF9E-CAAE6BFF8078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1ACBE89-4364-43C9-BF9E-CAAE6BFF8078}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,6 +173,7 @@ Global
 		{2A5CBB39-F8BC-42EE-851C-C51909444E99} = {32C114DF-FC87-4574-8BD3-A2364A01BE64}
 		{65546668-AFAF-4D66-AC0E-4888DFCB94F7} = {32C114DF-FC87-4574-8BD3-A2364A01BE64}
 		{C68C42B8-9143-40D9-8925-C785AEAAE1C9} = {32C114DF-FC87-4574-8BD3-A2364A01BE64}
+		{B1ACBE89-4364-43C9-BF9E-CAAE6BFF8078} = {32C114DF-FC87-4574-8BD3-A2364A01BE64}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0D32EBA-14AD-406F-814A-307686E6F7F3}
