@@ -45,7 +45,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "行为型模式\04
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "行为型模式\05 职责链模式\ChainOfResponsibility\ChainOfResponsibility.csproj", "{229DA240-4415-4B82-B8BE-87C8C15CCBBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{2A5CBB39-F8BC-42EE-851C-C51909444E99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "行为型模式\06 解释器模式\Interpreter\Interpreter.csproj", "{2A5CBB39-F8BC-42EE-851C-C51909444E99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
