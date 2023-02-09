@@ -43,7 +43,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "行为型模式\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "行为型模式\04 状态模式\State\State.csproj", "{1B5E5FEB-5649-4977-9352-0DF6A99CAA3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{229DA240-4415-4B82-B8BE-87C8C15CCBBD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "行为型模式\05 职责链模式\ChainOfResponsibility\ChainOfResponsibility.csproj", "{229DA240-4415-4B82-B8BE-87C8C15CCBBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
