@@ -37,13 +37,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "行为型模式", "行为�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "行为型模式\01 观察者模式\Observer\Observer.csproj", "{E76AA72B-CB5A-4901-92C8-0DC522C7D905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "行为型模式\02 模板方法模式\TemplateMethod\TemplateMethod.csproj", "{108C7DBE-20A7-4D92-BE7D-3BB6A90776A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "行为型模式\02 模板方法模式\TemplateMethod\TemplateMethod.csproj", "{108C7DBE-20A7-4D92-BE7D-3BB6A90776A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "行为型模式\03 命令模式\Command\Command.csproj", "{71639E75-668D-4501-8E88-40027B7C8740}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "行为型模式\03 命令模式\Command\Command.csproj", "{71639E75-668D-4501-8E88-40027B7C8740}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "行为型模式\04 状态模式\State\State.csproj", "{1B5E5FEB-5649-4977-9352-0DF6A99CAA3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "行为型模式\04 状态模式\State\State.csproj", "{1B5E5FEB-5649-4977-9352-0DF6A99CAA3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "行为型模式\05 职责链模式\ChainOfResponsibility\ChainOfResponsibility.csproj", "{229DA240-4415-4B82-B8BE-87C8C15CCBBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "行为型模式\05 职责链模式\ChainOfResponsibility\ChainOfResponsibility.csproj", "{229DA240-4415-4B82-B8BE-87C8C15CCBBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{2A5CBB39-F8BC-42EE-851C-C51909444E99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{229DA240-4415-4B82-B8BE-87C8C15CCBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{229DA240-4415-4B82-B8BE-87C8C15CCBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{229DA240-4415-4B82-B8BE-87C8C15CCBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5CBB39-F8BC-42EE-851C-C51909444E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5CBB39-F8BC-42EE-851C-C51909444E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5CBB39-F8BC-42EE-851C-C51909444E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5CBB39-F8BC-42EE-851C-C51909444E99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +152,7 @@ Global
 		{71639E75-668D-4501-8E88-40027B7C8740} = {32C114DF-FC87-4574-8BD3-A2364A01BE64}
 		{1B5E5FEB-5649-4977-9352-0DF6A99CAA3F} = {32C114DF-FC87-4574-8BD3-A2364A01BE64}
 		{229DA240-4415-4B82-B8BE-87C8C15CCBBD} = {32C114DF-FC87-4574-8BD3-A2364A01BE64}
+		{2A5CBB39-F8BC-42EE-851C-C51909444E99} = {32C114DF-FC87-4574-8BD3-A2364A01BE64}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0D32EBA-14AD-406F-814A-307686E6F7F3}
